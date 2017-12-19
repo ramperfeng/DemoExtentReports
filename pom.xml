@@ -46,7 +46,7 @@
      
                     <suiteXmlFiles>
 <!--  TestNG suite XML files -->
-<suiteXmlFile>src/test/java/com/selenium/testsuite/testng.xml</suiteXmlFile>
+
                     </suiteXmlFiles>
                </configuration>
             </plugin>
