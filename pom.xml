@@ -40,12 +40,14 @@
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-surefire-plugin</artifactId>
 
-<version>2.20.1</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-
+           <version>2.20.1</version>
+    <configuration>
+        <testFailureIgnore>true</testFailureIgnore>
+     
+                    <suiteXmlFiles>
+<!--  TestNG suite XML files -->
+<suiteXmlFile>src/test/java/com/selenium/testsuite/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                </configuration>
             </plugin>
         </plugins>
