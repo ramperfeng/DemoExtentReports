@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.extentreports.HandleExtentReports">
+      <class name="com.selenium.testscripts.TS1">
         <methods>
-          <include name="launchAPP"/>
-          <include name="freecrmtest"/>
-          <include name="teardown"/>
+          <include name="addItemtokart"/>
+          <include name="openApp"/>
           <include name="setExtent"/>
-          <include name="endReport"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.selenium.extentreports.HandleExtentReports -->
+      </class> <!-- com.selenium.testscripts.TS1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

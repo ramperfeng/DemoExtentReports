@@ -12,4 +12,8 @@ public class OR {
 	//KArt page
 	public static final String kartproduct="//*[@id='page-34']/div/div[1]/form/table/tbody/tr[1]/td[3]/a";
 	
+	
+	// to run below command to view extends reports in proper alignment
+	
+	//System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
 }
