@@ -25,9 +25,10 @@
     <build>
         <plugins>
 	<!--  Compiler plug-in -->
-            <plugin>
+           <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-compiler-plugin</artifactId>
+                
                 <configuration>
                     <source>${jdk.level}</source>
                     <target>${jdk.level}</target>
