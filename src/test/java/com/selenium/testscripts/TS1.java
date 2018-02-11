@@ -30,6 +30,9 @@ import com.selenium.util.BaseClass;
 public class TS1{
 	BaseClass b=new BaseClass();
 	
+	
+	
+	// ADD new feature to this file 
 	public WebDriver driver;
 	public ExtentReports extent;
 	public ExtentTest extentTest;
